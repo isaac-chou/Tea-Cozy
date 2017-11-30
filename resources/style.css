@@ -4,6 +4,7 @@ body {
     font-size: 22px;
     color: seashell;
     text-align: center;
+    opacity: 0.9;
 }
 
 header {
@@ -15,6 +16,7 @@ header {
     z-index: 10px;
     align-items: center;
     justify-content: center;
+    background-color: black;
 }
 
 header img {
@@ -43,24 +45,52 @@ a {
     color: seashell;
 }
 
-content {
+div {
+    display: block;
+}
 
+h2, h3, h4 {
+    margin: 0px;
+    padding: 10px;
+}
+
+content {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    padding-top: 69px;
+}
+
+.flex-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .mission {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
     height: 700px;
-    width: 1200px;
+    width: 100%;
+    background-image: url('../resources/img-mission-background.jpg');
 }
 
-.totm {
+.mission .txt {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+.featured {
     width: 1000px;
 }
 
-.totm.card {
+.featured.card {
     width: 300px;
 }
 
-.totm.img {
+.featured.img {
     height: 200px;
     width: 300px;
 }
@@ -68,6 +98,7 @@ content {
 .locations {
     height: 500px;
     width: 1200px;
+    background-image: url('../resources/img-locations-background.jpg');
 }
 
 .locations.card {
