@@ -1,22 +1,46 @@
 body {
     background-color: black;
-    font-family: Helvetica;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
     color: seashell;
-    opacity: 0.9;
     text-align: center;
 }
 
 header {
+    display: flex;
     position: fixed;
     height: 69px;
+    width: 100%;
     border-bottom: 1px solid seashell;
+    z-index: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
-header .logo {
+header img {
+    padding-left: 10px;
+    height: 50px;
+}
+
+.logo {
     display: flex;
     flex-grow: 1;
-    height: 50px;
-    margin-left: 10px;
+    align-items: center;
+    width: auto;
+}
+
+nav {
+    padding-right: 10px;
+}
+
+nav span{
+    display: inline-block;
+    padding: 20px 10px;
+    text-decoration: underline;
+}
+
+a {
+    color: seashell;
 }
 
 content {
