@@ -119,10 +119,21 @@ content {
     background-image: url('../resources/img-locations-background.jpg');
 }
 
-.locations.card {
-    width: 300px;
-    height: 300px;
+.flex-content.locations {
+    width: 1100px;
+    margin: auto;
+}
+
+.card {
+    flex-basis: 280px;
+    height: 280px;
     opacity: 1;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact {
