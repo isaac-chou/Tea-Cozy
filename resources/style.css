@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+header .logo {
+    display: flex;
+    flex-grow: 1;
+    height: 50px;
+    margin-left: 10px;
+}
+
+content {
+
+}
+
+.mission {
+    height: 700px;
+    width: 1200px;
+}
+
+.totm {
+    width: 1000px;
+}
+
+.totm.card {
+    width: 300px;
+}
+
+.totm.img {
+    height: 200px;
+    width: 300px;
+}
+
+.locations {
+    height: 500px;
+    width: 1200px;
+}
+
+.locations.card {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+}
+
+footer .contact {
+    text-align: center;
+    height: 200px;
+    width: 100%
+}
+
+footer .copyright {
+    text-align: left;
+    margin-left: 20px;
+}
